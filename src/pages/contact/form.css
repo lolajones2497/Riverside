@@ -107,8 +107,9 @@ textarea {
 .successMessage {
   font-size: 1.3em;
   font-weight: 600;
-  padding-top: 20px;
+  padding-top: 0px;
   color: #000;
-  text-align: left;
-  padding-left: 10px;
+  text-align: center;
+  padding-left: 0;
+  margin-left: 0;
 }

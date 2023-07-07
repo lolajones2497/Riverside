@@ -154,8 +154,8 @@ export default function Rsvp() {
           ) : null}
           {showSuccessMessage && (
             <p className="successMessage">
-              Your submission was successful! We will get back to you as soon as
-              possible.
+              Your submission was successful! <br></br> We will get back to you
+              as soon as possible.
             </p>
           )}
         </div>

@@ -1,0 +1,11 @@
+.center {
+  margin: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(144, 144, 230);
+}
+
+.product {
+  margin: 20px 50px 20px 50px;
+}

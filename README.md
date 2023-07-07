@@ -1,2 +1,1 @@
-# Riverside
-RRB company website
+# riverside-frontend

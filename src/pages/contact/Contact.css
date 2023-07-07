@@ -1,0 +1,48 @@
+.containersss {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.boxx {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dump {
+}
+
+.lines {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 70px 0;
+  background-color: rgb(212, 208, 208);
+}
+
+.rightboxs {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 0 20px;
+}
+
+.ourstory {
+  font-size: 2.4rem;
+  user-select: none;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.us {
+  font-size: 1.6rem;
+  text-align: left;
+  font-weight: 500;
+}
+
+.dumptruck {
+  width: 500px;
+}

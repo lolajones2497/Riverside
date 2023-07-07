@@ -1,0 +1,225 @@
+.top {
+  display: flex;
+  width: 100vw;
+  z-index: -1;
+  user-select: none;
+}
+
+.leftText {
+  width: 35vw;
+  background-image: url("../../images/otherleft.avif");
+  overflow: hidden;
+  margin: 0 0 0 0px;
+  color: transparent;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 45px 0 40px;
+  background-size: cover;
+  height: 550px;
+  transform: skewX(-9deg);
+  overflow: hidden;
+  margin-left: -35px;
+  margin-right: -45px;
+}
+
+.background {
+  width: 65vw;
+  height: 550px;
+}
+
+.text,
+.text2,
+.text3 {
+  color: rgb(52, 51, 51);
+  background-color: transparent;
+}
+
+.text {
+  font-size: 4rem;
+  padding: 0 70px 5px 70px;
+  color: rgb(52, 51, 51);
+  margin-top: 20px;
+  text-shadow: 1px 1px 1px rgba(255, 251, 251, 0.717);
+}
+
+.text2 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0 30px 20px 60px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: rgb(52, 51, 51);
+  text-shadow: 1px 1px 1px rgba(255, 251, 251, 0.717);
+}
+
+.text3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding: 0 20px 0 40px;
+  margin: 0;
+  color: rgb(52, 51, 51);
+  text-shadow: 1px 1px 1px rgba(255, 251, 251, 0.717);
+}
+.heading {
+  font-size: 2.4rem;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  user-select: none;
+}
+
+.boxes {
+  width: 100%;
+  gap: 40px;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+  margin-bottom: 60px;
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 420px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px 0 60px 0;
+  padding: 0 10px 10px 10px;
+  box-shadow: 1px 1px 1px rgb(186, 183, 183);
+}
+.icon {
+  font-size: 60px;
+}
+
+.name {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 15px 15px 0px 10px;
+  color: #6c7a2a;
+}
+
+.descrip {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 12px 10px 10px 10px;
+}
+
+.name:hover {
+  color: rgb(213, 85, 53);
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  margin: 50px 0 70px 0;
+  background-color: rgb(212, 208, 208);
+}
+
+.customer {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 120px 0;
+}
+
+.headin {
+  font-size: 2.4rem;
+  padding-bottom: 10px;
+  user-select: none;
+}
+
+.offer {
+  font-size: 1.6rem;
+  user-select: none;
+  text-align: left;
+  margin-left: 40px;
+  font-weight: 400;
+}
+
+.facts {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding-bottom: 2px;
+  font-size: 1.4rem;
+  user-select: none;
+}
+
+.shovelpic {
+  height: 400px;
+  width: 500px;
+  border: 1px solid rgb(236, 223, 223);
+  user-select: none;
+}
+
+.shovel {
+  font-size: 30px;
+  padding-right: 20px;
+  user-select: none;
+}
+
+.lin {
+  margin-top: 35px;
+  user-select: none;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 13px 20px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px rgb(186, 183, 183);
+  border-radius: 8px;
+  color: #6c7a2a;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: rgb(213, 85, 53);
+}
+
+.forgotten {
+  font-size: 2.4rem;
+  padding: 10px 0;
+  user-select: none;
+}
+
+.promise {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px 0 250px 0;
+}
+
+.motto,
+.five {
+  width: 35%;
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px rgb(186, 183, 183);
+}
+
+.price {
+  font-size: 60px;
+  padding-top: 25px;
+  margin: 2px;
+}
+
+.weprom {
+  font-size: 1.6rem;
+  padding: 20px 25px 25px 20px;
+  margin: 2px;
+  font-weight: normal;
+}
+
+.blah {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #6c7a2a;
+}

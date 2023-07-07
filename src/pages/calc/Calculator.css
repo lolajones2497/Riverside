@@ -1,11 +1,88 @@
-.center {
+* {
   margin: 0;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(144, 144, 230);
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.centers {
+  width: 520px;
+  margin: 20px auto;
+  padding: 30px 50px 30px 50px;
+  user-select: none;
+  border: 2px solid black;
+  box-shadow: 1px 1px 1px rgb(186, 183, 183);
+  border-radius: 8px;
+}
+
+.mat {
+  width: 45vw;
+  font-weight: 700;
+  user-select: none;
+  text-align: left;
+  margin: 0 0 10px 12px;
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
+.centers label {
+  margin: 5px 0 15px 0;
+  font-size: 1.4em;
+  display: block;
+  padding: 5px 15px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.centers input {
+  display: table;
+  padding: 8px 6px;
+  font-size: 0.9em;
+  width: 100%;
+  justify-content: center;
+  border-radius: 4px;
+  border-color: rgb(104, 102, 102);
+  border-width: 1.9px;
+  color: rgb(2, 1, 1);
+  background-color: rgba(241, 244, 239, 0.688);
+}
+
+.dropclick {
+  padding: 8px 6px;
+  font-size: 0.9em;
+  width: 100%;
+  justify-content: center;
+  border-radius: 4px;
+  border-color: rgb(104, 102, 102);
+  border-width: 1.9px;
+  color: rgb(2, 1, 1);
+  background-color: rgba(241, 244, 239, 0.688);
+}
 .product {
-  margin: 20px 50px 20px 50px;
+  margin-top: 25px;
+}
+
+.tonnage {
+  color: #fff;
+  background-color: rgb(213, 85, 53);
+  font-size: 1.6em;
+  padding: 0.5em;
+  border-radius: 6px;
+  font-weight: 700;
+  border: 2px solid rgb(213, 85, 53);
+  margin-top: 20px;
+  transition: transform 0.3s;
+}
+
+.tonnage:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+}
+
+.answerton {
+  margin: 5px 0 15px 0;
+  font-size: 1.4em;
+  display: block;
+  padding: 20px 0 0 0;
+  font-weight: 700;
+  text-align: center;
 }

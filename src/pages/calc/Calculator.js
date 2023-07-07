@@ -31,12 +31,13 @@ export default function Calculator() {
     }
   };
 
-  const calculateSquareFoot = () => {
+  const calculateSquareFoot = (e) => {
+    e.preventDefault();
     let conversionFactor = 0;
-    if (equation === '1/4" Minus ') {
-      conversionFactor = 0.0088;
+    if (equation === '1/4" Minus') {
+      conversionFactor = 1 / 110;
     } else if (equation === '1/2" Rock') {
-      conversionFactor = 0.009;
+      conversionFactor = 1 / 110;
     } else if (equation === '3/4" Rock') {
       conversionFactor = 1 / 100;
     } else if (equation === '1" Rock') {
@@ -51,11 +52,16 @@ export default function Calculator() {
   };
 
   return (
-    <div className="center">
+    <form className="centers">
+      <h13 className="mat">Materials Calculator:</h13>
       <div className="product">
         <label>
           Product:
-          <select value={product} onChange={handleProduct}>
+          <select
+            value={product}
+            onChange={handleProduct}
+            className="dropclick"
+          >
             <option value="">Select a Product/ Size</option>
             <option value="1/4 minus">1/4" Minus</option>
             <option value="1/2 rock">1/2" Rock</option>
@@ -86,8 +92,14 @@ export default function Calculator() {
           />
         </label>
       </div>
-      <button onClick={calculateSquareFoot}>Calculate</button>
-      <p>Approximate square footage required:{result}</p>
-    </div>
+      <button onClick={calculateSquareFoot} className="tonnage">
+        Calculate
+      </button>
+      {result && (
+        <p className="answerton">
+          You need approximately: {result} {result > 1.01 ? "tons" : "ton"}
+        </p>
+      )}
+    </form>
   );
 }

@@ -1,8 +1,43 @@
-main {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .ca {
-  width: 60%;
+  width: 75%;
+  margin: auto;
+}
+
+.ggg {
+  font-weight: 700;
+  user-select: none;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.purpose {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom: 50px;
+}
+
+.help {
+  font-weight: 700;
+  user-select: none;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.helpans {
+  margin-top: 20px;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  margin-bottom: 70px;
+}
+
+.helpans li {
+  list-style: inside;
+  text-align: left;
 }

@@ -64,12 +64,12 @@
 .tonnage {
   color: #fff;
   background-color: rgb(213, 85, 53);
-  font-size: 1.6em;
-  padding: 0.5em;
+  font-size: 1.4em;
+  padding: 5px 8px;
+  /* margin-top: ; */
   border-radius: 6px;
   font-weight: 700;
   border: 2px solid rgb(213, 85, 53);
-  margin-top: 20px;
   transition: transform 0.3s;
 }
 
@@ -85,4 +85,15 @@
   padding: 20px 0 0 0;
   font-weight: 700;
   text-align: center;
+}
+
+.reset {
+  color: #fff;
+  background-color: rgb(213, 85, 53);
+  font-size: 1.2em;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+  border: 2px solid rgb(213, 85, 53);
+  transition: transform 0.3s;
 }

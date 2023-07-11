@@ -32,6 +32,7 @@ export default function Navbar() {
                 onClick={toggleInfo}
                 onMouseEnter={toggleInfo}
                 onMouseLeave={toggleInfo}
+                onMouseOver={toggleInfo}
               >
                 Products
               </div>

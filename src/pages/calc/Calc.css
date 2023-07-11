@@ -23,7 +23,7 @@
   font-size: 1.4em;
   display: flex;
   padding-bottom: 30px;
-  margin-top: 30px;
+  margin: 30px 200px 0px 100px;
 }
 
 .helpans {
@@ -35,7 +35,7 @@
 
 .helpans li {
   list-style: decimal;
-  margin: 0px 75px 10px 40px;
+  margin: 0px 200px 20px 100px;
   text-align: left;
 }
 
@@ -44,18 +44,32 @@
 }
 
 .note {
-  width: 75%;
-  margin: 40px auto 20px auto;
+  width: 60%;
+  margin: 70px auto 30px auto;
   display: flex;
 }
 
 .info-icon {
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.info-icon2 {
+  font-size: 15px;
 }
 
 .purpose {
   font-size: 1em;
   line-height: 1.2em;
   margin-bottom: 50px;
-  font-weight: 700;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: rgba(0, 0, 0, 0.672);
 }

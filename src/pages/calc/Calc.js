@@ -28,6 +28,9 @@ export default function Calc() {
               <li>
                 Know the size of gravel or minus you need. The size and type of
                 the gravel will affect the required product quantity.
+                <span className="info-icon2">
+                  <IoMdInformationCircleOutline />
+                </span>
               </li>
             </ul>
           </div>
@@ -48,8 +51,13 @@ export default function Calc() {
           landscape elevation and other terrain factors can impact the accuracy
           of these results. Please be aware that the recommended tonnage is
           based on an area requiring only 2" of depth. If your project requires
-          a different depth, kindly <Link to="/contact">contact us</Link> for
-          further assistance.
+          a different depth, kindly{" "}
+          <b>
+            <Link to="/contact" className="contact-link">
+              contact us
+            </Link>{" "}
+          </b>
+          for further assistance.
         </div>
       </div>
     </main>

@@ -6,7 +6,7 @@
 }
 
 .leftText {
-  width: 35vw;
+  /* width: 35vw; */
   background-image: url("../../images/otherleft.avif");
   overflow: hidden;
   margin: 0 0 0 0px;

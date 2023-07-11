@@ -1,21 +1,3 @@
-.containersss {
-  display: flex;
-  flex-direction: column;
-  max-width: 100vw;
-  padding: 0 20px;
-  align-items: center;
-}
-
-.boxx {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.dump {
-}
-
 .lines {
   width: 100%;
   height: 1px;
@@ -23,7 +5,19 @@
   background-color: rgb(212, 208, 208);
 }
 
-.rightboxs {
+.container-contact {
+  display: flex;
+  max-width: 100vw;
+  padding: 0 150px;
+  gap: 50px;
+  align-items: center;
+}
+
+.dumptruck {
+  width: 550px;
+}
+
+.right-container {
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -31,18 +25,21 @@
 }
 
 .ourstory {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
   user-select: none;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  text-align: left;
 }
 
 .us {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-align: left;
   font-weight: 500;
 }
 
-.dumptruck {
-  width: 500px;
+.contactform {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }

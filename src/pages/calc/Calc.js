@@ -11,19 +11,11 @@ export default function Calc() {
       <div className="lines"></div>
       <div className="ca">
         <div>
-          <div className="ggg">What is a Materials Calculator?</div> <br></br>
-          <div className="purpose">
-            The purpose of our materials calculator is to provide an estimated
-            quantity of product(s) that is required for your project. To avoid
-            shortage in product materials, we recommend to get 5-10% more
-            product than the calculator recommends. However, it's important to
-            note that variations in landscape elevation and other terrain
-            factors can impact the accuracy of these results.
-          </div>
+          <div className="head-calc">Materials Calculator</div> <br></br>
         </div>
-        <div>
-          <h11 className="help">Tips to measuring: </h11>
+        <div className="container-calc">
           <div className="helpans">
+            <h11 className="help">Tips to measuring: </h11>
             <ul>
               <li>
                 Measure your entire project in a square or rectangle for best
@@ -31,7 +23,7 @@ export default function Calc() {
               </li>
               <li>
                 When planning to cover an area with gravel account for the depth
-                of the area. Will you need more than 2" of depth?
+                needed of the area. Will you need more than 2" of depth?
               </li>
               <li>
                 Know the size of gravel or minus you need. The size and type of
@@ -39,22 +31,26 @@ export default function Calc() {
               </li>
             </ul>
           </div>
+          <div>
+            <Calculator />
+          </div>
         </div>
-      </div>
-      <div>
-        <Calculator />
       </div>
       <div className="note">
-        <div>
+        <div className="info-icon">
           <IoMdInformationCircleOutline />
         </div>
-        <h5>
-          Please note that the recommended result is to get a 2" depth. Please{" "}
-          <Link to="/contact" className="contactus">
-            contact us
-          </Link>{" "}
-          if your project requires a different depth of coverage.
-        </h5>
+        <div className="purpose">
+          The purpose of our materials calculator is to provide an estimated
+          quantity of product(s) required for your project. To avoid shortages
+          in product materials, we recommend getting 5-10% more product than the
+          calculator recommends. It's important to note that variations in
+          landscape elevation and other terrain factors can impact the accuracy
+          of these results. Please be aware that the recommended tonnage is
+          based on an area requiring only 2" of depth. If your project requires
+          a different depth, kindly <Link to="/contact">contact us</Link> for
+          further assistance.
+        </div>
       </div>
     </main>
   );

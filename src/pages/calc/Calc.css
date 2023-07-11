@@ -9,25 +9,21 @@
   margin: auto;
 }
 
-.ggg {
+.head-calc {
   font-weight: 700;
   user-select: none;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
-  margin-top: -20px;
-}
-
-.purpose {
-  font-size: 1.2em;
-  line-height: 1.2em;
   margin-bottom: 50px;
 }
 
 .help {
   font-weight: 700;
   user-select: none;
-  font-size: 2rem;
-  text-align: center;
+  font-size: 1.4em;
+  display: flex;
+  padding-bottom: 30px;
+  margin-top: 30px;
 }
 
 .helpans {
@@ -38,6 +34,28 @@
 }
 
 .helpans li {
-  list-style: inside;
+  list-style: decimal;
+  margin: 0px 75px 10px 40px;
   text-align: left;
+}
+
+.container-calc {
+  display: flex;
+}
+
+.note {
+  width: 75%;
+  margin: 40px auto 20px auto;
+  display: flex;
+}
+
+.info-icon {
+  font-size: 25px;
+}
+
+.purpose {
+  font-size: 1em;
+  line-height: 1.2em;
+  margin-bottom: 50px;
+  font-weight: 700;
 }

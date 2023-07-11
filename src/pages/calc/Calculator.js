@@ -75,7 +75,7 @@ export default function Calculator() {
   return (
     <>
       <form className="centers">
-        <h13 className="mat">Materials Calculator:</h13>
+        {/* <h13 className="mat">Materials Calculator:</h13> */}
         <div className="product">
           <label>
             Product:

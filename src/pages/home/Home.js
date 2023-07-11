@@ -51,7 +51,7 @@ export default function Home() {
             <MdConstruction />
           </div>
           <Link to="/supplies" className="name">
-            Landscape Materials & Delivery
+            Landscape Materials
           </Link>
           <div className="descrip">
             {" "}

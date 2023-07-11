@@ -83,7 +83,7 @@
 .box {
   border: 2px solid black;
   border-radius: 8px;
-  width: 420px;
+  width: 470px;
   height: 270px;
   display: flex;
   justify-content: center;
@@ -95,6 +95,7 @@
 }
 .icon {
   font-size: 60px;
+  padding-top: 0px;
 }
 
 .name {

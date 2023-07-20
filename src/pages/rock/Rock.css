@@ -1,3 +1,16 @@
 * {
   color: black;
+  font-size: 1em;
+}
+
+.rock-name {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.rock-price {
+  display: flex;
+  justify-content: center;
+  color: black;
 }
